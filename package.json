@@ -1,0 +1,28 @@
+{
+  "name": "cloudplay",
+  "version": "0.0.0",
+  "description": "Load apps from the cloud without installing.",
+  "main": "index.js",
+  "author": "cloudplay",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/timothycoy/cloudplay.git"
+  },
+  "bugs": {
+    "url": "https://github.com/timothycoy/cloudplay/issues"
+  },
+  "scripts": {
+    "start": "serve public",
+    "build": "gulp"
+  },
+  "devDependencies": {
+    "browserify": "^10.0.0",
+    "gulp": "^3.8.11",
+    "gulp-sass": "^1.3.3",
+    "react": "^0.13.2",
+    "reactify": "^1.1.0",
+    "serve": "^1.4.0",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
